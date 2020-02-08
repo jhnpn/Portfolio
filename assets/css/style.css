@@ -1,0 +1,80 @@
+html {
+    height: 100%
+}
+
+body {
+    background: url('../images/gaming-pattern.png') no-repeat center/cover;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    width: auto;
+    color: #eee;
+    padding: 0px;
+    margin: auto;
+}
+
+#profile_picture {
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.content {
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    width: 960px;
+    height: 500px;
+    text-align: auto;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 8px solid black;
+    width: auto;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    background-color: #666;
+    color: #eee;
+    margin-top: auto;
+}
+
+.links {
+    text-align: right;
+}
+
+#about {
+    float: left;
+    width: 8.3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#portfolio {
+    float: left;
+    width: 8.3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact {
+    float: left;
+    width: 8.3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
